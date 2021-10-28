@@ -107,6 +107,7 @@ p {
      font-weight: 500;
      font-size: 15px;
      line-height: 24px;
+     margin-bottom:20px;
 }
 
 a {
@@ -198,6 +199,8 @@ header {
 	display:block;
 	height:400px;
 	width:300px;
+     max-width:100%;
+
 	background-image:url("https://images.pexels.com/photos/1591447/pexels-photo-1591447.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
 	background-repeat:no-repeat;
 	background-position:50% 100%;
@@ -208,3 +211,32 @@ footer {
 	padding:25px 0;
 }
 	
+
+@media only screen and (max-width: 600px) {
+     .logo {
+          text-align: center;
+          height:50px;
+	     font-size:35px;
+     }
+     
+     .nav-block{
+          position:relative;
+          text-align:center;
+          padding:20px 0;
+     }
+     .navigation {
+          list-style: none;
+          position: relative;
+          margin:0;
+          padding:0;
+     }
+     .banner-row {
+          height:300px;
+          align-items: center;
+     }
+     .banner_main .caption {
+          font-size:80px;
+          text-align:center;
+          margin-top:80px;
+     }
+}
