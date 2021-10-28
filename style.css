@@ -110,7 +110,7 @@ p {
 }
 
 a {
-     color: #222222;
+     color: #008cff;
      text-decoration: none;
      outline: none !important;
 }
@@ -146,6 +146,26 @@ header {
 	vertical-align:middle;
 	display:block;
 }
+.nav-block{
+     position:relative;
+     text-align:right;
+     padding:20px 0;
+}
+.navigation {
+     list-style: none;
+     position: relative;
+     margin:0;
+     padding:0;
+}
+.navigation li {
+     position: relative;
+     display: inline-block;
+     padding:10px 20px;
+     text-align: center;
+}
+
+
+
 .banner_main {
 	position:relative;
 	display:block;	
