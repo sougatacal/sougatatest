@@ -207,10 +207,17 @@ header {
 }
 .inline-iamge {
      position:relative;
-     width: 150px;
+     width: 200px;
      height:auto;
      float:left;
      margin:0 15px 20px 0;
+}
+
+.quote {
+     position: relative;
+     font-family: georgia,serif;
+     font-style: italic;
+     color:#000;
 }
 
 footer {
